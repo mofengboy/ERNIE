@@ -93,9 +93,11 @@ def main(args):
 
         if args.in_tokens:
             if args.batch_size < args.max_seq_len:
-                raise ValueError('if in_tokens=True, batch_size should greater than max_sqelen, got batch_size:%d seqlen:%d' % (args.batch_size, args.max_seq_len))
+                raise ValueError(
+                    'if in_tokens=True, batch_size should greater than max_sqelen, got batch_size:%d seqlen:%d' % (
+                    args.batch_size, args.max_seq_len))
             max_train_steps = args.epoch * num_train_examples // (
-                args.batch_size // args.max_seq_len) // dev_count
+                    args.batch_size // args.max_seq_len) // dev_count
         else:
             max_train_steps = args.epoch * num_train_examples // args.batch_size // dev_count
 
@@ -126,13 +128,13 @@ def main(args):
                     startup_prog=startup_prog,
                     weight_decay=args.weight_decay,
                     scheduler=args.lr_scheduler,
-		    use_fp16=args.use_fp16,
-		    use_dynamic_loss_scaling=args.use_dynamic_loss_scaling,
-		    init_loss_scaling=args.init_loss_scaling,
-		    incr_every_n_steps=args.incr_every_n_steps,
-		    decr_every_n_nan_or_inf=args.decr_every_n_nan_or_inf,
-		    incr_ratio=args.incr_ratio,
-		    decr_ratio=args.decr_ratio)
+                    use_fp16=args.use_fp16,
+                    use_dynamic_loss_scaling=args.use_dynamic_loss_scaling,
+                    init_loss_scaling=args.init_loss_scaling,
+                    incr_every_n_steps=args.incr_every_n_steps,
+                    decr_every_n_nan_or_inf=args.decr_every_n_nan_or_inf,
+                    incr_ratio=args.incr_ratio,
+                    decr_ratio=args.decr_ratio)
 
         if args.verbose:
             if args.in_tokens:
@@ -143,7 +145,7 @@ def main(args):
                 lower_mem, upper_mem, unit = fluid.contrib.memory_usage(
                     program=train_program, batch_size=args.batch_size)
             log.info("Theoretical memory usage in training: %.3f - %.3f %s" %
-                  (lower_mem, upper_mem, unit))
+                     (lower_mem, upper_mem, unit))
 
     if args.do_val or args.do_test:
         test_prog = fluid.Program()
@@ -165,7 +167,7 @@ def main(args):
         current_endpoint = os.getenv("PADDLE_CURRENT_ENDPOINT")
         worker_endpoints = worker_endpoints_env.split(",")
         trainers_num = len(worker_endpoints)
-        
+
         log.info("worker_endpoints:{} trainers_num:{} current_endpoint:{} \
               trainer_id:{}".format(worker_endpoints, trainers_num,
                                     current_endpoint, trainer_id))
@@ -378,6 +380,7 @@ def main(args):
 def evaluate_wrapper(args, reader, exe, test_prog, test_pyreader, graph_vars,
                      epoch, steps):
     # evaluate dev set
+    # evaluate dev set
     batch_size = args.batch_size if args.predict_batch_size is None else args.predict_batch_size
     for ds in args.dev_set.split(','):
         test_pyreader.set_batch_generator(
@@ -388,6 +391,9 @@ def evaluate_wrapper(args, reader, exe, test_prog, test_pyreader, graph_vars,
                 dev_count=1,
                 shuffle=False))
         log.info("validation result of dataset {}:".format(ds))
+        # 保存评估结果
+        content = "validation result of dataset {}:".format(ds)
+        save_evaluation_results(args.output, content)
         evaluate_info = evaluate(
             exe,
             test_prog,
@@ -399,6 +405,17 @@ def evaluate_wrapper(args, reader, exe, test_prog, test_pyreader, graph_vars,
             is_regression=args.is_regression)
         log.info(evaluate_info + ', file: {}, epoch: {}, steps: {}'.format(
             ds, epoch, steps))
+        # 保存评估结果
+        content = evaluate_info + ', file: {}, epoch: {}, steps: {}'.format(
+            ds, epoch, steps)
+        save_evaluation_results(args.output, content)
+
+
+# save the evaluation results
+def save_evaluation_results(file, content):
+    with open(file, 'a+', encoding="utf-8") as fp:
+        fp.write(content)
+        fp.write("\n")
 
 
 def predict_wrapper(args, reader, exe, test_prog, test_pyreader, graph_vars,

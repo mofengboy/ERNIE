@@ -122,7 +122,7 @@ class BaseReader(object):
     def _convert_example_to_record(self, example, max_seq_length, tokenizer):
         """Converts a single `Example` into a single `Record`."""
 
-        text_a = tokenization.convert_to_unicode(example.text_a)
+        text_a = tokenization.convert_to_unicode(example.Text)
         tokens_a = tokenizer.tokenize(text_a)
         tokens_b = None
 
@@ -193,9 +193,9 @@ class BaseReader(object):
                 position_ids=position_ids)
         else:
             if self.label_map:
-                label_id = self.label_map[example.label]
+                label_id = self.label_map[example.Label]
             else:
-                label_id = example.label
+                label_id = example.Label
 
             Record = namedtuple('Record', [
                 'token_ids', 'text_type_ids', 'position_ids', 'label_id', 'qid'
@@ -282,18 +282,18 @@ class ClassifyReader(BaseReader):
             reader = csv_reader(f)
             headers = next(reader)
             text_indices = [
-                index for index, h in enumerate(headers) if h != "label"
+                index for index, h in enumerate(headers) if h != "Label"
             ]
             Example = namedtuple('Example', headers)
 
             examples = []
             for line in reader:
-                for index, text in enumerate(line):
+                for index, Text in enumerate(line):
                     if index in text_indices:
                         if self.for_cn:
-                            line[index] = text.replace(' ', '')
+                            line[index] = Text.replace(' ', '')
                         else:
-                            line[index] = text
+                            line[index] = Text
                 example = Example(*line)
                 examples.append(example)
             return examples
@@ -398,7 +398,7 @@ class SequenceLabelReader(BaseReader):
         return ret_tokens, ret_labels
 
     def _convert_example_to_record(self, example, max_seq_length, tokenizer):
-        tokens = tokenization.convert_to_unicode(example.text_a).split(u"")
+        tokens = tokenization.convert_to_unicode(example.Text).split(u"")
         labels = tokenization.convert_to_unicode(example.label).split(u"")
         tokens, labels = self._reseg_token_label(tokens, labels, tokenizer)
 

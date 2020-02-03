@@ -1,0 +1,696 @@
+[INFO] 2019-11-22 13:42:58,677 [run_classifier.py:  114]:       Device count: 1
+[INFO] 2019-11-22 13:42:58,677 [run_classifier.py:  115]:       Num train examples: 13240
+[INFO] 2019-11-22 13:42:58,677 [run_classifier.py:  116]:       Max train steps: 3310
+[INFO] 2019-11-22 13:42:58,677 [run_classifier.py:  117]:       Num warmup steps: 331
+[WARNING] 2019-11-22 13:42:58,678 [       io.py:  690]: paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[INFO] 2019-11-22 13:43:00,390 [run_classifier.py:  157]:       Theoretical memory usage in training: 10054.819 - 10533.620 MB
+[WARNING] 2019-11-22 13:43:00,390 [       io.py:  690]: paddle.fluid.layers.py_reader() may be deprecated in the near future. Please use paddle.fluid.io.DataLoader.from_generator() instead.
+[INFO] 2019-11-22 13:43:04,500 [     init.py:   88]:    Load pretraining parameters from ernie/model/ERNIE_Base_en_stable-2.0.0/params.
+[INFO] 2019-11-22 13:43:10,759 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 13:43:10,759 [run_classifier.py:  298]:       epoch: 0, progress: 992/13240, step: 10, ave loss: 0.353455, ave acc: 0.625000, speed: 1.614703 steps/s
+[INFO] 2019-11-22 13:43:16,863 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 13:43:16,864 [run_classifier.py:  298]:       epoch: 0, progress: 1152/13240, step: 20, ave loss: 0.249161, ave acc: 0.625000, speed: 1.638224 steps/s
+[INFO] 2019-11-22 13:43:22,292 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 13:43:22,293 [run_classifier.py:  298]:       epoch: 0, progress: 1312/13240, step: 30, ave loss: 0.194031, ave acc: 0.812500, speed: 1.842072 steps/s
+[INFO] 2019-11-22 13:43:28,062 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 13:43:28,062 [run_classifier.py:  298]:       epoch: 0, progress: 1472/13240, step: 40, ave loss: 0.083993, ave acc: 0.625000, speed: 1.733384 steps/s
+[INFO] 2019-11-22 13:43:34,174 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 13:43:34,174 [run_classifier.py:  298]:       epoch: 0, progress: 1632/13240, step: 50, ave loss: 0.065315, ave acc: 0.625000, speed: 1.635901 steps/s
+[INFO] 2019-11-22 13:43:39,845 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 13:43:39,845 [run_classifier.py:  298]:       epoch: 0, progress: 1792/13240, step: 60, ave loss: 0.100357, ave acc: 0.750000, speed: 1.763638 steps/s
+[INFO] 2019-11-22 13:43:45,886 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 13:43:45,886 [run_classifier.py:  298]:       epoch: 0, progress: 1952/13240, step: 70, ave loss: 0.085318, ave acc: 0.625000, speed: 1.655124 steps/s
+[INFO] 2019-11-22 13:43:52,046 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 13:43:52,046 [run_classifier.py:  298]:       epoch: 0, progress: 2112/13240, step: 80, ave loss: 0.108809, ave acc: 0.625000, speed: 1.623593 steps/s
+[INFO] 2019-11-22 13:43:57,955 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 13:43:57,955 [run_classifier.py:  298]:       epoch: 0, progress: 2272/13240, step: 90, ave loss: 0.113861, ave acc: 0.812500, speed: 1.692141 steps/s
+[INFO] 2019-11-22 13:44:03,713 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 13:44:03,713 [run_classifier.py:  298]:       epoch: 0, progress: 2432/13240, step: 100, ave loss: 0.150218, ave acc: 0.937500, speed: 1.736768 steps/s
+[INFO] 2019-11-22 13:44:09,760 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 13:44:09,760 [run_classifier.py:  298]:       epoch: 0, progress: 2592/13240, step: 110, ave loss: 0.073849, ave acc: 0.562500, speed: 1.653729 steps/s
+[INFO] 2019-11-22 13:44:15,293 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 13:44:15,293 [run_classifier.py:  298]:       epoch: 0, progress: 2752/13240, step: 120, ave loss: 0.075052, ave acc: 0.562500, speed: 1.807345 steps/s
+[INFO] 2019-11-22 13:44:20,976 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 13:44:20,976 [run_classifier.py:  298]:       epoch: 0, progress: 2912/13240, step: 130, ave loss: 0.079246, ave acc: 0.625000, speed: 1.759595 steps/s
+[INFO] 2019-11-22 13:44:26,870 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 13:44:26,870 [run_classifier.py:  298]:       epoch: 0, progress: 3072/13240, step: 140, ave loss: 0.060754, ave acc: 0.437500, speed: 1.696571 steps/s
+[INFO] 2019-11-22 13:44:32,006 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 13:44:32,006 [run_classifier.py:  298]:       epoch: 0, progress: 3232/13240, step: 150, ave loss: 0.067290, ave acc: 0.687500, speed: 1.947027 steps/s
+[INFO] 2019-11-22 13:44:37,497 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 13:44:37,497 [run_classifier.py:  298]:       epoch: 0, progress: 3392/13240, step: 160, ave loss: 0.096956, ave acc: 0.812500, speed: 1.821398 steps/s
+[INFO] 2019-11-22 13:44:43,662 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:44:43,662 [run_classifier.py:  298]:       epoch: 0, progress: 3552/13240, step: 170, ave loss: 0.084529, ave acc: 0.687500, speed: 1.622045 steps/s
+[INFO] 2019-11-22 13:44:49,587 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:44:49,587 [run_classifier.py:  298]:       epoch: 0, progress: 3712/13240, step: 180, ave loss: 0.069343, ave acc: 0.750000, speed: 1.687719 steps/s
+[INFO] 2019-11-22 13:44:55,703 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:44:55,703 [run_classifier.py:  298]:       epoch: 0, progress: 3872/13240, step: 190, ave loss: 0.107758, ave acc: 0.625000, speed: 1.634986 steps/s
+[INFO] 2019-11-22 13:45:02,494 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:45:02,494 [run_classifier.py:  298]:       epoch: 0, progress: 4032/13240, step: 200, ave loss: 0.089963, ave acc: 0.750000, speed: 1.472670 steps/s
+[INFO] 2019-11-22 13:45:07,730 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:45:07,730 [run_classifier.py:  298]:       epoch: 0, progress: 4192/13240, step: 210, ave loss: 0.040845, ave acc: 0.562500, speed: 1.909768 steps/s
+[INFO] 2019-11-22 13:45:13,727 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:45:13,727 [run_classifier.py:  298]:       epoch: 0, progress: 4352/13240, step: 220, ave loss: 0.054411, ave acc: 0.500000, speed: 1.667641 steps/s
+[INFO] 2019-11-22 13:45:19,158 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:45:19,158 [run_classifier.py:  298]:       epoch: 0, progress: 4512/13240, step: 230, ave loss: 0.058081, ave acc: 0.562500, speed: 1.841361 steps/s
+[INFO] 2019-11-22 13:45:25,252 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:45:25,252 [run_classifier.py:  298]:       epoch: 0, progress: 4672/13240, step: 240, ave loss: 0.065654, ave acc: 0.687500, speed: 1.640947 steps/s
+[INFO] 2019-11-22 13:45:30,814 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:45:30,814 [run_classifier.py:  298]:       epoch: 0, progress: 4832/13240, step: 250, ave loss: 0.088302, ave acc: 0.750000, speed: 1.797820 steps/s
+[INFO] 2019-11-22 13:45:36,811 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:45:36,811 [run_classifier.py:  298]:       epoch: 0, progress: 4992/13240, step: 260, ave loss: 0.060839, ave acc: 0.625000, speed: 1.667517 steps/s
+[INFO] 2019-11-22 13:45:42,098 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:45:42,098 [run_classifier.py:  298]:       epoch: 0, progress: 5152/13240, step: 270, ave loss: 0.051549, ave acc: 0.625000, speed: 1.891620 steps/s
+[INFO] 2019-11-22 13:45:47,622 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:45:47,622 [run_classifier.py:  298]:       epoch: 0, progress: 5312/13240, step: 280, ave loss: 0.015750, ave acc: 0.187500, speed: 1.810038 steps/s
+[INFO] 2019-11-22 13:45:53,947 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:45:53,947 [run_classifier.py:  298]:       epoch: 0, progress: 5472/13240, step: 290, ave loss: 0.079322, ave acc: 0.625000, speed: 1.581134 steps/s
+[INFO] 2019-11-22 13:46:00,085 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000027
+[INFO] 2019-11-22 13:46:00,085 [run_classifier.py:  298]:       epoch: 0, progress: 5632/13240, step: 300, ave loss: 0.049567, ave acc: 0.750000, speed: 1.629053 steps/s
+[INFO] 2019-11-22 13:46:06,450 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000028
+[INFO] 2019-11-22 13:46:06,450 [run_classifier.py:  298]:       epoch: 0, progress: 5792/13240, step: 310, ave loss: 0.073459, ave acc: 0.687500, speed: 1.571174 steps/s
+[INFO] 2019-11-22 13:46:12,889 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000029
+[INFO] 2019-11-22 13:46:12,889 [run_classifier.py:  298]:       epoch: 0, progress: 5952/13240, step: 320, ave loss: 0.050190, ave acc: 0.687500, speed: 1.553123 steps/s
+[INFO] 2019-11-22 13:46:18,529 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000030
+[INFO] 2019-11-22 13:46:18,529 [run_classifier.py:  298]:       epoch: 0, progress: 6112/13240, step: 330, ave loss: 0.088066, ave acc: 0.750000, speed: 1.773230 steps/s
+[INFO] 2019-11-22 13:46:24,408 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000027
+[INFO] 2019-11-22 13:46:24,408 [run_classifier.py:  298]:       epoch: 0, progress: 6272/13240, step: 340, ave loss: 0.089737, ave acc: 0.687500, speed: 1.701040 steps/s
+[INFO] 2019-11-22 13:46:30,610 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000027
+[INFO] 2019-11-22 13:46:30,610 [run_classifier.py:  298]:       epoch: 0, progress: 6432/13240, step: 350, ave loss: 0.068443, ave acc: 0.625000, speed: 1.612386 steps/s
+[INFO] 2019-11-22 13:46:36,096 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000027
+[INFO] 2019-11-22 13:46:36,096 [run_classifier.py:  298]:       epoch: 0, progress: 6592/13240, step: 360, ave loss: 0.079554, ave acc: 0.687500, speed: 1.822636 steps/s
+[INFO] 2019-11-22 13:46:41,335 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000027
+[INFO] 2019-11-22 13:46:41,335 [run_classifier.py:  298]:       epoch: 0, progress: 6752/13240, step: 370, ave loss: 0.040452, ave acc: 0.500000, speed: 1.908783 steps/s
+[INFO] 2019-11-22 13:46:47,508 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000027
+[INFO] 2019-11-22 13:46:47,508 [run_classifier.py:  298]:       epoch: 0, progress: 6912/13240, step: 380, ave loss: 0.048097, ave acc: 0.625000, speed: 1.620016 steps/s
+[INFO] 2019-11-22 13:46:53,198 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:46:53,198 [run_classifier.py:  298]:       epoch: 0, progress: 7072/13240, step: 390, ave loss: 0.111871, ave acc: 0.875000, speed: 1.757470 steps/s
+[INFO] 2019-11-22 13:46:59,371 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:46:59,371 [run_classifier.py:  298]:       epoch: 0, progress: 7232/13240, step: 400, ave loss: 0.046385, ave acc: 0.500000, speed: 1.619901 steps/s
+[INFO] 2019-11-22 13:47:04,836 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:47:04,837 [run_classifier.py:  298]:       epoch: 0, progress: 7392/13240, step: 410, ave loss: 0.035254, ave acc: 0.562500, speed: 1.829620 steps/s
+[INFO] 2019-11-22 13:47:10,011 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:47:10,011 [run_classifier.py:  298]:       epoch: 0, progress: 7552/13240, step: 420, ave loss: 0.147917, ave acc: 0.875000, speed: 1.932853 steps/s
+[INFO] 2019-11-22 13:47:15,368 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:47:15,368 [run_classifier.py:  298]:       epoch: 0, progress: 7712/13240, step: 430, ave loss: 0.050779, ave acc: 0.625000, speed: 1.866570 steps/s
+[INFO] 2019-11-22 13:47:21,010 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:47:21,011 [run_classifier.py:  298]:       epoch: 0, progress: 7872/13240, step: 440, ave loss: 0.087123, ave acc: 0.750000, speed: 1.772562 steps/s
+[INFO] 2019-11-22 13:47:27,424 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:47:27,424 [run_classifier.py:  298]:       epoch: 0, progress: 8032/13240, step: 450, ave loss: 0.076379, ave acc: 0.812500, speed: 1.559296 steps/s
+[INFO] 2019-11-22 13:47:32,925 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:47:32,925 [run_classifier.py:  298]:       epoch: 0, progress: 8192/13240, step: 460, ave loss: 0.039079, ave acc: 0.500000, speed: 1.817635 steps/s
+[INFO] 2019-11-22 13:47:39,103 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:47:39,103 [run_classifier.py:  298]:       epoch: 0, progress: 8352/13240, step: 470, ave loss: 0.065202, ave acc: 0.750000, speed: 1.618635 steps/s
+[INFO] 2019-11-22 13:47:44,860 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:47:44,860 [run_classifier.py:  298]:       epoch: 0, progress: 8512/13240, step: 480, ave loss: 0.077575, ave acc: 0.750000, speed: 1.737195 steps/s
+[INFO] 2019-11-22 13:47:50,734 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000026
+[INFO] 2019-11-22 13:47:50,734 [run_classifier.py:  298]:       epoch: 0, progress: 8672/13240, step: 490, ave loss: 0.112353, ave acc: 0.812500, speed: 1.702274 steps/s
+[INFO] 2019-11-22 13:47:57,053 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:47:57,053 [run_classifier.py:  298]:       epoch: 0, progress: 8832/13240, step: 500, ave loss: 0.047401, ave acc: 0.687500, speed: 1.582686 steps/s
+[INFO] 2019-11-22 13:48:02,407 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:02,407 [run_classifier.py:  298]:       epoch: 0, progress: 8992/13240, step: 510, ave loss: 0.073162, ave acc: 0.750000, speed: 1.867517 steps/s
+[INFO] 2019-11-22 13:48:07,931 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:07,931 [run_classifier.py:  298]:       epoch: 0, progress: 9152/13240, step: 520, ave loss: 0.114528, ave acc: 0.937500, speed: 1.810426 steps/s
+[INFO] 2019-11-22 13:48:14,171 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:14,171 [run_classifier.py:  298]:       epoch: 0, progress: 9312/13240, step: 530, ave loss: 0.083086, ave acc: 0.562500, speed: 1.602584 steps/s
+[INFO] 2019-11-22 13:48:19,594 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:19,594 [run_classifier.py:  298]:       epoch: 0, progress: 9472/13240, step: 540, ave loss: 0.077505, ave acc: 0.812500, speed: 1.843861 steps/s
+[INFO] 2019-11-22 13:48:25,365 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:25,365 [run_classifier.py:  298]:       epoch: 0, progress: 9632/13240, step: 550, ave loss: 0.090224, ave acc: 0.812500, speed: 1.732768 steps/s
+[INFO] 2019-11-22 13:48:30,561 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:30,561 [run_classifier.py:  298]:       epoch: 0, progress: 9792/13240, step: 560, ave loss: 0.047317, ave acc: 0.500000, speed: 1.924740 steps/s
+[INFO] 2019-11-22 13:48:36,588 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:36,588 [run_classifier.py:  298]:       epoch: 0, progress: 9952/13240, step: 570, ave loss: 0.042300, ave acc: 0.625000, speed: 1.659198 steps/s
+[INFO] 2019-11-22 13:48:41,999 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:41,999 [run_classifier.py:  298]:       epoch: 0, progress: 10112/13240, step: 580, ave loss: 0.060035, ave acc: 0.750000, speed: 1.848095 steps/s
+[INFO] 2019-11-22 13:48:48,388 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:48,388 [run_classifier.py:  298]:       epoch: 0, progress: 10272/13240, step: 590, ave loss: 0.019941, ave acc: 0.437500, speed: 1.565214 steps/s
+[INFO] 2019-11-22 13:48:53,860 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000025
+[INFO] 2019-11-22 13:48:53,860 [run_classifier.py:  298]:       epoch: 0, progress: 10432/13240, step: 600, ave loss: 0.065687, ave acc: 0.500000, speed: 1.827375 steps/s
+[INFO] 2019-11-22 13:48:59,134 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:48:59,134 [run_classifier.py:  298]:       epoch: 0, progress: 10592/13240, step: 610, ave loss: 0.065064, ave acc: 0.750000, speed: 1.896275 steps/s
+[INFO] 2019-11-22 13:49:05,183 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:05,183 [run_classifier.py:  298]:       epoch: 0, progress: 10752/13240, step: 620, ave loss: 0.042515, ave acc: 0.562500, speed: 1.653033 steps/s
+[INFO] 2019-11-22 13:49:11,259 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:11,259 [run_classifier.py:  298]:       epoch: 0, progress: 10912/13240, step: 630, ave loss: 0.065019, ave acc: 0.687500, speed: 1.645805 steps/s
+[INFO] 2019-11-22 13:49:17,604 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:17,604 [run_classifier.py:  298]:       epoch: 0, progress: 11072/13240, step: 640, ave loss: 0.033333, ave acc: 0.562500, speed: 1.575992 steps/s
+[INFO] 2019-11-22 13:49:23,381 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:23,381 [run_classifier.py:  298]:       epoch: 0, progress: 11232/13240, step: 650, ave loss: 0.055134, ave acc: 0.562500, speed: 1.731268 steps/s
+[INFO] 2019-11-22 13:49:29,517 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:29,517 [run_classifier.py:  298]:       epoch: 0, progress: 11392/13240, step: 660, ave loss: 0.075234, ave acc: 0.750000, speed: 1.629658 steps/s
+[INFO] 2019-11-22 13:49:35,785 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:35,785 [run_classifier.py:  298]:       epoch: 0, progress: 11552/13240, step: 670, ave loss: 0.076400, ave acc: 0.750000, speed: 1.595284 steps/s
+[INFO] 2019-11-22 13:49:41,742 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:41,742 [run_classifier.py:  298]:       epoch: 0, progress: 11712/13240, step: 680, ave loss: 0.083410, ave acc: 0.437500, speed: 1.678908 steps/s
+[INFO] 2019-11-22 13:49:46,958 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:46,958 [run_classifier.py:  298]:       epoch: 0, progress: 11872/13240, step: 690, ave loss: 0.028257, ave acc: 0.562500, speed: 1.916894 steps/s
+[INFO] 2019-11-22 13:49:52,585 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:52,585 [run_classifier.py:  298]:       epoch: 0, progress: 12032/13240, step: 700, ave loss: 0.039694, ave acc: 0.437500, speed: 1.777180 steps/s
+[INFO] 2019-11-22 13:49:58,473 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000024
+[INFO] 2019-11-22 13:49:58,473 [run_classifier.py:  298]:       epoch: 0, progress: 12192/13240, step: 710, ave loss: 0.058027, ave acc: 0.687500, speed: 1.698467 steps/s
+[INFO] 2019-11-22 13:50:03,924 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:50:03,924 [run_classifier.py:  298]:       epoch: 0, progress: 12352/13240, step: 720, ave loss: 0.066793, ave acc: 0.812500, speed: 1.834435 steps/s
+[INFO] 2019-11-22 13:50:09,752 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:50:09,752 [run_classifier.py:  298]:       epoch: 0, progress: 12512/13240, step: 730, ave loss: 0.107154, ave acc: 0.687500, speed: 1.715981 steps/s
+[INFO] 2019-11-22 13:50:15,153 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:50:15,153 [run_classifier.py:  298]:       epoch: 0, progress: 12672/13240, step: 740, ave loss: 0.084368, ave acc: 0.687500, speed: 1.851264 steps/s
+[INFO] 2019-11-22 13:50:21,171 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:50:21,172 [run_classifier.py:  298]:       epoch: 0, progress: 12832/13240, step: 750, ave loss: 0.042402, ave acc: 0.625000, speed: 1.661396 steps/s
+[INFO] 2019-11-22 13:50:27,356 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:50:27,356 [run_classifier.py:  298]:       epoch: 0, progress: 12992/13240, step: 760, ave loss: 0.060612, ave acc: 0.687500, speed: 1.617182 steps/s
+[INFO] 2019-11-22 13:50:33,792 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:50:33,792 [run_classifier.py:  298]:       epoch: 0, progress: 13152/13240, step: 770, ave loss: 0.067557, ave acc: 0.562500, speed: 1.553786 steps/s
+[INFO] 2019-11-22 13:50:39,619 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:50:39,619 [run_classifier.py:  298]:       epoch: 1, progress: 64/13240, step: 780, ave loss: 0.079113, ave acc: 0.687500, speed: 1.716172 steps/s
+[INFO] 2019-11-22 13:50:39,622 [run_classifier.py:  401]:       validation result of dataset mofeng_data/OLID/task_a/dev.tsv:
+D:\software\anaconda\envs\PaddlePaddle\lib\site-packages\sklearn\metrics\classification.py:1145: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+[INFO] 2019-11-22 13:50:50,841 [run_classifier.py:  412]:       [dev evaluation] ave loss: 0.089138, ave_acc: 0.720930, f1: 0.418919, data_num: 860, elapsed time: 10.829601 s, file: mofeng_data/OLID/task_a/dev.tsv, epoch: 1, steps: 780
+[INFO] 2019-11-22 13:50:57,446 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:50:57,446 [run_classifier.py:  298]:       epoch: 1, progress: 224/13240, step: 790, ave loss: 0.078887, ave acc: 0.687500, speed: 0.560940 steps/s
+[INFO] 2019-11-22 13:51:02,917 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:51:02,917 [run_classifier.py:  298]:       epoch: 1, progress: 384/13240, step: 800, ave loss: 0.065911, ave acc: 0.687500, speed: 1.827775 steps/s
+[INFO] 2019-11-22 13:51:08,299 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:51:08,299 [run_classifier.py:  298]:       epoch: 1, progress: 544/13240, step: 810, ave loss: 0.071492, ave acc: 0.750000, speed: 1.858269 steps/s
+[INFO] 2019-11-22 13:51:14,401 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000023
+[INFO] 2019-11-22 13:51:14,401 [run_classifier.py:  298]:       epoch: 1, progress: 704/13240, step: 820, ave loss: 0.058429, ave acc: 0.812500, speed: 1.638565 steps/s
+[INFO] 2019-11-22 13:51:19,484 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:51:19,484 [run_classifier.py:  298]:       epoch: 1, progress: 864/13240, step: 830, ave loss: 0.049630, ave acc: 0.812500, speed: 1.967340 steps/s
+[INFO] 2019-11-22 13:51:25,373 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:51:25,373 [run_classifier.py:  298]:       epoch: 1, progress: 1024/13240, step: 840, ave loss: 0.029485, ave acc: 0.812500, speed: 1.698238 steps/s
+[INFO] 2019-11-22 13:51:31,035 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:51:31,035 [run_classifier.py:  298]:       epoch: 1, progress: 1184/13240, step: 850, ave loss: 0.079410, ave acc: 0.687500, speed: 1.766126 steps/s
+[INFO] 2019-11-22 13:51:37,033 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:51:37,033 [run_classifier.py:  298]:       epoch: 1, progress: 1344/13240, step: 860, ave loss: 0.094097, ave acc: 0.750000, speed: 1.667110 steps/s
+[INFO] 2019-11-22 13:51:42,482 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:51:42,482 [run_classifier.py:  298]:       epoch: 1, progress: 1504/13240, step: 870, ave loss: 0.042528, ave acc: 0.750000, speed: 1.835255 steps/s
+[INFO] 2019-11-22 13:51:48,371 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:51:48,372 [run_classifier.py:  298]:       epoch: 1, progress: 1664/13240, step: 880, ave loss: 0.048832, ave acc: 0.812500, speed: 1.698060 steps/s
+[INFO] 2019-11-22 13:51:53,792 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:51:53,792 [run_classifier.py:  298]:       epoch: 1, progress: 1824/13240, step: 890, ave loss: 0.026890, ave acc: 0.500000, speed: 1.845190 steps/s
+[INFO] 2019-11-22 13:52:00,091 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:52:00,091 [run_classifier.py:  298]:       epoch: 1, progress: 1984/13240, step: 900, ave loss: 0.050178, ave acc: 0.875000, speed: 1.587465 steps/s
+[INFO] 2019-11-22 13:52:06,329 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:52:06,329 [run_classifier.py:  298]:       epoch: 1, progress: 2144/13240, step: 910, ave loss: 0.029398, ave acc: 0.687500, speed: 1.603072 steps/s
+[INFO] 2019-11-22 13:52:12,064 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:52:12,064 [run_classifier.py:  298]:       epoch: 1, progress: 2304/13240, step: 920, ave loss: 0.056132, ave acc: 0.625000, speed: 1.743726 steps/s
+[INFO] 2019-11-22 13:52:17,820 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000022
+[INFO] 2019-11-22 13:52:17,820 [run_classifier.py:  298]:       epoch: 1, progress: 2464/13240, step: 930, ave loss: 0.075685, ave acc: 0.562500, speed: 1.737262 steps/s
+[INFO] 2019-11-22 13:52:23,462 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:52:23,462 [run_classifier.py:  298]:       epoch: 1, progress: 2624/13240, step: 940, ave loss: 0.047920, ave acc: 0.687500, speed: 1.772409 steps/s
+[INFO] 2019-11-22 13:52:29,663 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:52:29,663 [run_classifier.py:  298]:       epoch: 1, progress: 2784/13240, step: 950, ave loss: 0.106690, ave acc: 0.875000, speed: 1.612742 steps/s
+[INFO] 2019-11-22 13:52:35,330 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:52:35,330 [run_classifier.py:  298]:       epoch: 1, progress: 2944/13240, step: 960, ave loss: 0.036496, ave acc: 0.437500, speed: 1.764677 steps/s
+[INFO] 2019-11-22 13:52:40,803 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:52:40,803 [run_classifier.py:  298]:       epoch: 1, progress: 3104/13240, step: 970, ave loss: 0.057028, ave acc: 0.875000, speed: 1.827100 steps/s
+[INFO] 2019-11-22 13:52:46,318 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:52:46,318 [run_classifier.py:  298]:       epoch: 1, progress: 3264/13240, step: 980, ave loss: 0.045944, ave acc: 0.625000, speed: 1.813160 steps/s
+[INFO] 2019-11-22 13:52:51,437 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:52:51,437 [run_classifier.py:  298]:       epoch: 1, progress: 3424/13240, step: 990, ave loss: 0.068450, ave acc: 0.625000, speed: 1.953605 steps/s
+[INFO] 2019-11-22 13:52:57,290 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:52:57,290 [run_classifier.py:  298]:       epoch: 1, progress: 3584/13240, step: 1000, ave loss: 0.091024, ave acc: 0.750000, speed: 1.708456 steps/s
+[INFO] 2019-11-22 13:53:09,835 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:53:09,835 [run_classifier.py:  298]:       epoch: 1, progress: 3744/13240, step: 1010, ave loss: 0.081481, ave acc: 0.687500, speed: 0.797110 steps/s
+[INFO] 2019-11-22 13:53:15,758 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:53:15,758 [run_classifier.py:  298]:       epoch: 1, progress: 3904/13240, step: 1020, ave loss: 0.056802, ave acc: 0.625000, speed: 1.688499 steps/s
+[INFO] 2019-11-22 13:53:21,434 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:53:21,434 [run_classifier.py:  298]:       epoch: 1, progress: 4064/13240, step: 1030, ave loss: 0.052920, ave acc: 0.750000, speed: 1.761667 steps/s
+[INFO] 2019-11-22 13:53:27,022 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000021
+[INFO] 2019-11-22 13:53:27,022 [run_classifier.py:  298]:       epoch: 1, progress: 4224/13240, step: 1040, ave loss: 0.034085, ave acc: 0.562500, speed: 1.789569 steps/s
+[INFO] 2019-11-22 13:53:32,721 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:53:32,721 [run_classifier.py:  298]:       epoch: 1, progress: 4384/13240, step: 1050, ave loss: 0.077835, ave acc: 0.625000, speed: 1.754796 steps/s
+[INFO] 2019-11-22 13:53:38,476 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:53:38,476 [run_classifier.py:  298]:       epoch: 1, progress: 4544/13240, step: 1060, ave loss: 0.096959, ave acc: 0.812500, speed: 1.737635 steps/s
+[INFO] 2019-11-22 13:53:44,064 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:53:44,064 [run_classifier.py:  298]:       epoch: 1, progress: 4704/13240, step: 1070, ave loss: 0.036937, ave acc: 0.687500, speed: 1.789339 steps/s
+[INFO] 2019-11-22 13:53:50,163 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:53:50,163 [run_classifier.py:  298]:       epoch: 1, progress: 4864/13240, step: 1080, ave loss: 0.080034, ave acc: 0.937500, speed: 1.639757 steps/s
+[INFO] 2019-11-22 13:53:55,745 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:53:55,745 [run_classifier.py:  298]:       epoch: 1, progress: 5024/13240, step: 1090, ave loss: 0.049558, ave acc: 0.625000, speed: 1.791366 steps/s
+[INFO] 2019-11-22 13:54:01,146 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:54:01,146 [run_classifier.py:  298]:       epoch: 1, progress: 5184/13240, step: 1100, ave loss: 0.093299, ave acc: 0.812500, speed: 1.851446 steps/s
+[INFO] 2019-11-22 13:54:06,939 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:54:06,939 [run_classifier.py:  298]:       epoch: 1, progress: 5344/13240, step: 1110, ave loss: 0.047267, ave acc: 0.562500, speed: 1.726486 steps/s
+[INFO] 2019-11-22 13:54:13,197 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:54:13,197 [run_classifier.py:  298]:       epoch: 1, progress: 5504/13240, step: 1120, ave loss: 0.029267, ave acc: 0.500000, speed: 1.597889 steps/s
+[INFO] 2019-11-22 13:54:18,194 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:54:18,194 [run_classifier.py:  298]:       epoch: 1, progress: 5664/13240, step: 1130, ave loss: 0.090928, ave acc: 0.750000, speed: 2.001124 steps/s
+[INFO] 2019-11-22 13:54:24,111 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:54:24,111 [run_classifier.py:  298]:       epoch: 1, progress: 5824/13240, step: 1140, ave loss: 0.059161, ave acc: 0.750000, speed: 1.690024 steps/s
+[INFO] 2019-11-22 13:54:29,580 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000020
+[INFO] 2019-11-22 13:54:29,580 [run_classifier.py:  298]:       epoch: 1, progress: 5984/13240, step: 1150, ave loss: 0.043391, ave acc: 0.687500, speed: 1.828473 steps/s
+[INFO] 2019-11-22 13:54:35,747 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:54:35,747 [run_classifier.py:  298]:       epoch: 1, progress: 6144/13240, step: 1160, ave loss: 0.032140, ave acc: 0.562500, speed: 1.621598 steps/s
+[INFO] 2019-11-22 13:54:41,716 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:54:41,716 [run_classifier.py:  298]:       epoch: 1, progress: 6304/13240, step: 1170, ave loss: 0.022561, ave acc: 0.375000, speed: 1.675249 steps/s
+[INFO] 2019-11-22 13:54:47,377 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:54:47,377 [run_classifier.py:  298]:       epoch: 1, progress: 6464/13240, step: 1180, ave loss: 0.069810, ave acc: 0.562500, speed: 1.766356 steps/s
+[INFO] 2019-11-22 13:54:53,758 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:54:53,758 [run_classifier.py:  298]:       epoch: 1, progress: 6624/13240, step: 1190, ave loss: 0.069493, ave acc: 0.562500, speed: 1.567347 steps/s
+[INFO] 2019-11-22 13:55:00,183 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:55:00,183 [run_classifier.py:  298]:       epoch: 1, progress: 6784/13240, step: 1200, ave loss: 0.050731, ave acc: 0.562500, speed: 1.556243 steps/s
+[INFO] 2019-11-22 13:55:06,028 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:55:06,029 [run_classifier.py:  298]:       epoch: 1, progress: 6944/13240, step: 1210, ave loss: 0.051627, ave acc: 0.750000, speed: 1.710645 steps/s
+[INFO] 2019-11-22 13:55:12,044 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:55:12,044 [run_classifier.py:  298]:       epoch: 1, progress: 7104/13240, step: 1220, ave loss: 0.087983, ave acc: 0.625000, speed: 1.662446 steps/s
+[INFO] 2019-11-22 13:55:17,889 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:55:17,889 [run_classifier.py:  298]:       epoch: 1, progress: 7264/13240, step: 1230, ave loss: 0.056791, ave acc: 0.562500, speed: 1.710920 steps/s
+[INFO] 2019-11-22 13:55:23,464 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:55:23,464 [run_classifier.py:  298]:       epoch: 1, progress: 7424/13240, step: 1240, ave loss: 0.059598, ave acc: 0.750000, speed: 1.793774 steps/s
+[INFO] 2019-11-22 13:55:30,209 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:55:30,209 [run_classifier.py:  298]:       epoch: 1, progress: 7584/13240, step: 1250, ave loss: 0.069699, ave acc: 0.750000, speed: 1.482693 steps/s
+[INFO] 2019-11-22 13:55:35,845 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000019
+[INFO] 2019-11-22 13:55:35,845 [run_classifier.py:  298]:       epoch: 1, progress: 7744/13240, step: 1260, ave loss: 0.068134, ave acc: 0.687500, speed: 1.774094 steps/s
+[INFO] 2019-11-22 13:55:42,197 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:55:42,197 [run_classifier.py:  298]:       epoch: 1, progress: 7904/13240, step: 1270, ave loss: 0.071389, ave acc: 0.687500, speed: 1.574416 steps/s
+[INFO] 2019-11-22 13:55:47,944 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:55:47,944 [run_classifier.py:  298]:       epoch: 1, progress: 8064/13240, step: 1280, ave loss: 0.054694, ave acc: 0.562500, speed: 1.739968 steps/s
+[INFO] 2019-11-22 13:55:53,922 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:55:53,922 [run_classifier.py:  298]:       epoch: 1, progress: 8224/13240, step: 1290, ave loss: 0.083681, ave acc: 0.812500, speed: 1.672953 steps/s
+[INFO] 2019-11-22 13:55:59,865 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:55:59,865 [run_classifier.py:  298]:       epoch: 1, progress: 8384/13240, step: 1300, ave loss: 0.049369, ave acc: 0.562500, speed: 1.682888 steps/s
+[INFO] 2019-11-22 13:56:05,371 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:56:05,371 [run_classifier.py:  298]:       epoch: 1, progress: 8544/13240, step: 1310, ave loss: 0.061681, ave acc: 0.750000, speed: 1.816011 steps/s
+[INFO] 2019-11-22 13:56:11,060 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:56:11,060 [run_classifier.py:  298]:       epoch: 1, progress: 8704/13240, step: 1320, ave loss: 0.086382, ave acc: 0.812500, speed: 1.757850 steps/s
+[INFO] 2019-11-22 13:56:16,857 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:56:16,857 [run_classifier.py:  298]:       epoch: 1, progress: 8864/13240, step: 1330, ave loss: 0.043672, ave acc: 0.812500, speed: 1.725018 steps/s
+[INFO] 2019-11-22 13:56:22,804 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:56:22,804 [run_classifier.py:  298]:       epoch: 1, progress: 9024/13240, step: 1340, ave loss: 0.060673, ave acc: 0.562500, speed: 1.681511 steps/s
+[INFO] 2019-11-22 13:56:29,425 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:56:29,425 [run_classifier.py:  298]:       epoch: 1, progress: 9184/13240, step: 1350, ave loss: 0.051535, ave acc: 0.562500, speed: 1.510376 steps/s
+[INFO] 2019-11-22 13:56:34,896 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:56:34,896 [run_classifier.py:  298]:       epoch: 1, progress: 9344/13240, step: 1360, ave loss: 0.085214, ave acc: 0.750000, speed: 1.827810 steps/s
+[INFO] 2019-11-22 13:56:40,667 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:56:40,667 [run_classifier.py:  298]:       epoch: 1, progress: 9504/13240, step: 1370, ave loss: 0.042558, ave acc: 0.437500, speed: 1.732764 steps/s
+[INFO] 2019-11-22 13:56:46,728 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000018
+[INFO] 2019-11-22 13:56:46,728 [run_classifier.py:  298]:       epoch: 1, progress: 9664/13240, step: 1380, ave loss: 0.099512, ave acc: 0.750000, speed: 1.649907 steps/s
+[INFO] 2019-11-22 13:56:52,443 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:56:52,443 [run_classifier.py:  298]:       epoch: 1, progress: 9824/13240, step: 1390, ave loss: 0.027801, ave acc: 0.500000, speed: 1.749820 steps/s
+[INFO] 2019-11-22 13:56:58,654 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:56:58,654 [run_classifier.py:  298]:       epoch: 1, progress: 9984/13240, step: 1400, ave loss: 0.033930, ave acc: 0.500000, speed: 1.609907 steps/s
+[INFO] 2019-11-22 13:57:05,354 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:57:05,354 [run_classifier.py:  298]:       epoch: 1, progress: 10144/13240, step: 1410, ave loss: 0.054828, ave acc: 0.875000, speed: 1.492639 steps/s
+[INFO] 2019-11-22 13:57:10,867 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:57:10,867 [run_classifier.py:  298]:       epoch: 1, progress: 10304/13240, step: 1420, ave loss: 0.048490, ave acc: 0.500000, speed: 1.813934 steps/s
+[INFO] 2019-11-22 13:57:16,525 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:57:16,525 [run_classifier.py:  298]:       epoch: 1, progress: 10464/13240, step: 1430, ave loss: 0.046812, ave acc: 0.750000, speed: 1.767334 steps/s
+[INFO] 2019-11-22 13:57:22,313 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:57:22,313 [run_classifier.py:  298]:       epoch: 1, progress: 10624/13240, step: 1440, ave loss: 0.092936, ave acc: 0.750000, speed: 1.727763 steps/s
+[INFO] 2019-11-22 13:57:28,247 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:57:28,247 [run_classifier.py:  298]:       epoch: 1, progress: 10784/13240, step: 1450, ave loss: 0.078785, ave acc: 0.750000, speed: 1.685241 steps/s
+[INFO] 2019-11-22 13:57:33,855 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:57:33,855 [run_classifier.py:  298]:       epoch: 1, progress: 10944/13240, step: 1460, ave loss: 0.073192, ave acc: 0.687500, speed: 1.782944 steps/s
+[INFO] 2019-11-22 13:57:39,700 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:57:39,700 [run_classifier.py:  298]:       epoch: 1, progress: 11104/13240, step: 1470, ave loss: 0.049834, ave acc: 0.625000, speed: 1.710878 steps/s
+[INFO] 2019-11-22 13:57:45,624 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:57:45,624 [run_classifier.py:  298]:       epoch: 1, progress: 11264/13240, step: 1480, ave loss: 0.044228, ave acc: 0.500000, speed: 1.688099 steps/s
+[INFO] 2019-11-22 13:57:51,384 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000017
+[INFO] 2019-11-22 13:57:51,384 [run_classifier.py:  298]:       epoch: 1, progress: 11424/13240, step: 1490, ave loss: 0.054299, ave acc: 0.687500, speed: 1.736269 steps/s
+[INFO] 2019-11-22 13:57:57,433 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:57:57,433 [run_classifier.py:  298]:       epoch: 1, progress: 11584/13240, step: 1500, ave loss: 0.065618, ave acc: 0.687500, speed: 1.653024 steps/s
+[INFO] 2019-11-22 13:58:03,214 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:03,214 [run_classifier.py:  298]:       epoch: 1, progress: 11744/13240, step: 1510, ave loss: 0.084603, ave acc: 0.750000, speed: 1.730098 steps/s
+[INFO] 2019-11-22 13:58:09,057 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:09,057 [run_classifier.py:  298]:       epoch: 1, progress: 11904/13240, step: 1520, ave loss: 0.044200, ave acc: 0.687500, speed: 1.711470 steps/s
+[INFO] 2019-11-22 13:58:15,060 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:15,060 [run_classifier.py:  298]:       epoch: 1, progress: 12064/13240, step: 1530, ave loss: 0.062465, ave acc: 0.687500, speed: 1.666020 steps/s
+[INFO] 2019-11-22 13:58:20,635 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:20,636 [run_classifier.py:  298]:       epoch: 1, progress: 12224/13240, step: 1540, ave loss: 0.092726, ave acc: 0.687500, speed: 1.793602 steps/s
+[INFO] 2019-11-22 13:58:26,949 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:26,949 [run_classifier.py:  298]:       epoch: 1, progress: 12384/13240, step: 1550, ave loss: 0.048036, ave acc: 0.750000, speed: 1.584109 steps/s
+[INFO] 2019-11-22 13:58:32,651 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:32,652 [run_classifier.py:  298]:       epoch: 1, progress: 12544/13240, step: 1560, ave loss: 0.024232, ave acc: 0.812500, speed: 1.753342 steps/s
+[INFO] 2019-11-22 13:58:38,933 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:38,933 [run_classifier.py:  298]:       epoch: 1, progress: 12704/13240, step: 1570, ave loss: 0.081656, ave acc: 0.750000, speed: 1.592156 steps/s
+[INFO] 2019-11-22 13:58:44,322 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:44,322 [run_classifier.py:  298]:       epoch: 1, progress: 12864/13240, step: 1580, ave loss: 0.056598, ave acc: 0.562500, speed: 1.855563 steps/s
+[INFO] 2019-11-22 13:58:50,218 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:50,218 [run_classifier.py:  298]:       epoch: 1, progress: 13024/13240, step: 1590, ave loss: 0.090258, ave acc: 0.750000, speed: 1.695988 steps/s
+[INFO] 2019-11-22 13:58:56,110 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000016
+[INFO] 2019-11-22 13:58:56,110 [run_classifier.py:  298]:       epoch: 1, progress: 13184/13240, step: 1600, ave loss: 0.075040, ave acc: 0.687500, speed: 1.697153 steps/s
+[INFO] 2019-11-22 13:59:01,842 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:59:01,842 [run_classifier.py:  298]:       epoch: 2, progress: 96/13240, step: 1610, ave loss: 0.054933, ave acc: 0.562500, speed: 1.744838 steps/s
+[INFO] 2019-11-22 13:59:01,844 [run_classifier.py:  401]:       validation result of dataset mofeng_data/OLID/task_a/dev.tsv:
+[INFO] 2019-11-22 13:59:12,711 [run_classifier.py:  412]:       [dev evaluation] ave loss: 0.055347, ave_acc: 0.720930, f1: 0.418919, data_num: 860, elapsed time: 10.860527 s, file: mofeng_data/OLID/task_a/dev.tsv, epoch: 2, steps: 1610
+[INFO] 2019-11-22 13:59:18,454 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:59:18,455 [run_classifier.py:  298]:       epoch: 2, progress: 256/13240, step: 1620, ave loss: 0.071384, ave acc: 0.687500, speed: 0.601921 steps/s
+[INFO] 2019-11-22 13:59:24,511 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:59:24,512 [run_classifier.py:  298]:       epoch: 2, progress: 416/13240, step: 1630, ave loss: 0.049024, ave acc: 0.750000, speed: 1.651098 steps/s
+[INFO] 2019-11-22 13:59:30,356 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:59:30,356 [run_classifier.py:  298]:       epoch: 2, progress: 576/13240, step: 1640, ave loss: 0.075784, ave acc: 0.562500, speed: 1.710942 steps/s
+[INFO] 2019-11-22 13:59:36,763 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:59:36,763 [run_classifier.py:  298]:       epoch: 2, progress: 736/13240, step: 1650, ave loss: 0.091435, ave acc: 0.750000, speed: 1.560979 steps/s
+[INFO] 2019-11-22 13:59:42,988 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:59:42,988 [run_classifier.py:  298]:       epoch: 2, progress: 896/13240, step: 1660, ave loss: 0.050437, ave acc: 0.625000, speed: 1.606345 steps/s
+[INFO] 2019-11-22 13:59:48,415 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:59:48,416 [run_classifier.py:  298]:       epoch: 2, progress: 1056/13240, step: 1670, ave loss: 0.046230, ave acc: 0.625000, speed: 1.842198 steps/s
+[INFO] 2019-11-22 13:59:54,388 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:59:54,388 [run_classifier.py:  298]:       epoch: 2, progress: 1216/13240, step: 1680, ave loss: 0.055857, ave acc: 0.812500, speed: 1.674638 steps/s
+[INFO] 2019-11-22 13:59:59,694 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 13:59:59,694 [run_classifier.py:  298]:       epoch: 2, progress: 1376/13240, step: 1690, ave loss: 0.087806, ave acc: 0.875000, speed: 1.884450 steps/s
+[INFO] 2019-11-22 14:00:05,703 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 14:00:05,703 [run_classifier.py:  298]:       epoch: 2, progress: 1536/13240, step: 1700, ave loss: 0.086025, ave acc: 0.687500, speed: 1.664171 steps/s
+[INFO] 2019-11-22 14:00:12,127 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000015
+[INFO] 2019-11-22 14:00:12,127 [run_classifier.py:  298]:       epoch: 2, progress: 1696/13240, step: 1710, ave loss: 0.076411, ave acc: 0.687500, speed: 1.556851 steps/s
+[INFO] 2019-11-22 14:00:17,933 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:00:17,933 [run_classifier.py:  298]:       epoch: 2, progress: 1856/13240, step: 1720, ave loss: 0.052150, ave acc: 0.687500, speed: 1.722200 steps/s
+[INFO] 2019-11-22 14:00:23,557 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:00:23,557 [run_classifier.py:  298]:       epoch: 2, progress: 2016/13240, step: 1730, ave loss: 0.024930, ave acc: 0.437500, speed: 1.777972 steps/s
+[INFO] 2019-11-22 14:00:29,284 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:00:29,284 [run_classifier.py:  298]:       epoch: 2, progress: 2176/13240, step: 1740, ave loss: 0.042988, ave acc: 0.437500, speed: 1.746157 steps/s
+[INFO] 2019-11-22 14:00:35,210 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:00:35,211 [run_classifier.py:  298]:       epoch: 2, progress: 2336/13240, step: 1750, ave loss: 0.052683, ave acc: 0.500000, speed: 1.687437 steps/s
+[INFO] 2019-11-22 14:00:40,640 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:00:40,640 [run_classifier.py:  298]:       epoch: 2, progress: 2496/13240, step: 1760, ave loss: 0.061082, ave acc: 0.750000, speed: 1.842070 steps/s
+[INFO] 2019-11-22 14:00:46,296 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:00:46,296 [run_classifier.py:  298]:       epoch: 2, progress: 2656/13240, step: 1770, ave loss: 0.056547, ave acc: 0.500000, speed: 1.768201 steps/s
+[INFO] 2019-11-22 14:00:51,667 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:00:51,667 [run_classifier.py:  298]:       epoch: 2, progress: 2816/13240, step: 1780, ave loss: 0.068825, ave acc: 0.687500, speed: 1.861608 steps/s
+[INFO] 2019-11-22 14:00:57,055 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:00:57,055 [run_classifier.py:  298]:       epoch: 2, progress: 2976/13240, step: 1790, ave loss: 0.049325, ave acc: 0.687500, speed: 1.856534 steps/s
+[INFO] 2019-11-22 14:01:02,844 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:01:02,844 [run_classifier.py:  298]:       epoch: 2, progress: 3136/13240, step: 1800, ave loss: 0.032017, ave acc: 0.500000, speed: 1.727574 steps/s
+[INFO] 2019-11-22 14:01:08,427 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:01:08,427 [run_classifier.py:  298]:       epoch: 2, progress: 3296/13240, step: 1810, ave loss: 0.040613, ave acc: 0.750000, speed: 1.791254 steps/s
+[INFO] 2019-11-22 14:01:15,334 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000014
+[INFO] 2019-11-22 14:01:15,334 [run_classifier.py:  298]:       epoch: 2, progress: 3456/13240, step: 1820, ave loss: 0.062148, ave acc: 0.687500, speed: 1.447694 steps/s
+[INFO] 2019-11-22 14:01:20,772 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:01:20,772 [run_classifier.py:  298]:       epoch: 2, progress: 3616/13240, step: 1830, ave loss: 0.063765, ave acc: 0.812500, speed: 1.839136 steps/s
+[INFO] 2019-11-22 14:01:27,205 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:01:27,205 [run_classifier.py:  298]:       epoch: 2, progress: 3776/13240, step: 1840, ave loss: 0.040700, ave acc: 0.687500, speed: 1.554439 steps/s
+[INFO] 2019-11-22 14:01:32,848 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:01:32,848 [run_classifier.py:  298]:       epoch: 2, progress: 3936/13240, step: 1850, ave loss: 0.072310, ave acc: 0.687500, speed: 1.772017 steps/s
+[INFO] 2019-11-22 14:01:37,979 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:01:37,979 [run_classifier.py:  298]:       epoch: 2, progress: 4096/13240, step: 1860, ave loss: 0.053069, ave acc: 0.750000, speed: 1.949102 steps/s
+[INFO] 2019-11-22 14:01:44,320 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:01:44,320 [run_classifier.py:  298]:       epoch: 2, progress: 4256/13240, step: 1870, ave loss: 0.044889, ave acc: 0.750000, speed: 1.576959 steps/s
+[INFO] 2019-11-22 14:01:50,142 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:01:50,142 [run_classifier.py:  298]:       epoch: 2, progress: 4416/13240, step: 1880, ave loss: 0.033779, ave acc: 0.812500, speed: 1.717784 steps/s
+[INFO] 2019-11-22 14:01:57,138 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:01:57,138 [run_classifier.py:  298]:       epoch: 2, progress: 4576/13240, step: 1890, ave loss: 0.049107, ave acc: 0.687500, speed: 1.429253 steps/s
+[INFO] 2019-11-22 14:02:03,615 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:02:03,615 [run_classifier.py:  298]:       epoch: 2, progress: 4736/13240, step: 1900, ave loss: 0.032148, ave acc: 0.625000, speed: 1.543877 steps/s
+[INFO] 2019-11-22 14:02:09,886 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:02:09,886 [run_classifier.py:  298]:       epoch: 2, progress: 4896/13240, step: 1910, ave loss: 0.056815, ave acc: 0.812500, speed: 1.595057 steps/s
+[INFO] 2019-11-22 14:02:15,162 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:02:15,162 [run_classifier.py:  298]:       epoch: 2, progress: 5056/13240, step: 1920, ave loss: 0.055633, ave acc: 0.687500, speed: 1.895349 steps/s
+[INFO] 2019-11-22 14:02:20,985 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000013
+[INFO] 2019-11-22 14:02:20,985 [run_classifier.py:  298]:       epoch: 2, progress: 5216/13240, step: 1930, ave loss: 0.023801, ave acc: 0.750000, speed: 1.717239 steps/s
+[INFO] 2019-11-22 14:02:27,260 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:02:27,260 [run_classifier.py:  298]:       epoch: 2, progress: 5376/13240, step: 1940, ave loss: 0.078610, ave acc: 0.875000, speed: 1.593772 steps/s
+[INFO] 2019-11-22 14:02:32,871 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:02:32,871 [run_classifier.py:  298]:       epoch: 2, progress: 5536/13240, step: 1950, ave loss: 0.090735, ave acc: 0.750000, speed: 1.781944 steps/s
+[INFO] 2019-11-22 14:02:39,065 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:02:39,065 [run_classifier.py:  298]:       epoch: 2, progress: 5696/13240, step: 1960, ave loss: 0.050351, ave acc: 0.875000, speed: 1.614480 steps/s
+[INFO] 2019-11-22 14:02:44,725 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:02:44,725 [run_classifier.py:  298]:       epoch: 2, progress: 5856/13240, step: 1970, ave loss: 0.066110, ave acc: 0.625000, speed: 1.767258 steps/s
+[INFO] 2019-11-22 14:02:50,553 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:02:50,553 [run_classifier.py:  298]:       epoch: 2, progress: 6016/13240, step: 1980, ave loss: 0.030992, ave acc: 0.750000, speed: 1.715940 steps/s
+[INFO] 2019-11-22 14:02:56,994 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:02:56,994 [run_classifier.py:  298]:       epoch: 2, progress: 6176/13240, step: 1990, ave loss: 0.037162, ave acc: 0.687500, speed: 1.552477 steps/s
+[INFO] 2019-11-22 14:03:02,904 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:03:02,904 [run_classifier.py:  298]:       epoch: 2, progress: 6336/13240, step: 2000, ave loss: 0.020962, ave acc: 0.312500, speed: 1.692087 steps/s
+[INFO] 2019-11-22 14:03:16,262 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:03:16,262 [run_classifier.py:  298]:       epoch: 2, progress: 6496/13240, step: 2010, ave loss: 0.060573, ave acc: 0.812500, speed: 0.748626 steps/s
+[INFO] 2019-11-22 14:03:22,364 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:03:22,364 [run_classifier.py:  298]:       epoch: 2, progress: 6656/13240, step: 2020, ave loss: 0.030550, ave acc: 0.687500, speed: 1.638622 steps/s
+[INFO] 2019-11-22 14:03:28,389 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:03:28,389 [run_classifier.py:  298]:       epoch: 2, progress: 6816/13240, step: 2030, ave loss: 0.045230, ave acc: 0.812500, speed: 1.659832 steps/s
+[INFO] 2019-11-22 14:03:33,737 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000012
+[INFO] 2019-11-22 14:03:33,738 [run_classifier.py:  298]:       epoch: 2, progress: 6976/13240, step: 2040, ave loss: 0.060485, ave acc: 0.687500, speed: 1.869405 steps/s
+[INFO] 2019-11-22 14:03:39,795 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:03:39,795 [run_classifier.py:  298]:       epoch: 2, progress: 7136/13240, step: 2050, ave loss: 0.046598, ave acc: 0.687500, speed: 1.650955 steps/s
+[INFO] 2019-11-22 14:03:45,777 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:03:45,777 [run_classifier.py:  298]:       epoch: 2, progress: 7296/13240, step: 2060, ave loss: 0.044132, ave acc: 0.687500, speed: 1.671782 steps/s
+[INFO] 2019-11-22 14:03:51,722 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:03:51,722 [run_classifier.py:  298]:       epoch: 2, progress: 7456/13240, step: 2070, ave loss: 0.061638, ave acc: 0.687500, speed: 1.681976 steps/s
+[INFO] 2019-11-22 14:03:58,179 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:03:58,179 [run_classifier.py:  298]:       epoch: 2, progress: 7616/13240, step: 2080, ave loss: 0.039416, ave acc: 0.625000, speed: 1.548826 steps/s
+[INFO] 2019-11-22 14:04:03,939 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:04:03,939 [run_classifier.py:  298]:       epoch: 2, progress: 7776/13240, step: 2090, ave loss: 0.075429, ave acc: 0.875000, speed: 1.736073 steps/s
+[INFO] 2019-11-22 14:04:10,085 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:04:10,085 [run_classifier.py:  298]:       epoch: 2, progress: 7936/13240, step: 2100, ave loss: 0.015576, ave acc: 0.437500, speed: 1.627126 steps/s
+[INFO] 2019-11-22 14:04:15,225 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:04:15,225 [run_classifier.py:  298]:       epoch: 2, progress: 8096/13240, step: 2110, ave loss: 0.055193, ave acc: 0.687500, speed: 1.945330 steps/s
+[INFO] 2019-11-22 14:04:21,188 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:04:21,188 [run_classifier.py:  298]:       epoch: 2, progress: 8256/13240, step: 2120, ave loss: 0.057388, ave acc: 0.750000, speed: 1.677202 steps/s
+[INFO] 2019-11-22 14:04:26,941 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:04:26,942 [run_classifier.py:  298]:       epoch: 2, progress: 8416/13240, step: 2130, ave loss: 0.011979, ave acc: 0.375000, speed: 1.737817 steps/s
+[INFO] 2019-11-22 14:04:32,621 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:04:32,621 [run_classifier.py:  298]:       epoch: 2, progress: 8576/13240, step: 2140, ave loss: 0.032970, ave acc: 0.562500, speed: 1.760832 steps/s
+[INFO] 2019-11-22 14:04:38,497 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000011
+[INFO] 2019-11-22 14:04:38,497 [run_classifier.py:  298]:       epoch: 2, progress: 8736/13240, step: 2150, ave loss: 0.071323, ave acc: 0.750000, speed: 1.701900 steps/s
+[INFO] 2019-11-22 14:04:44,123 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:04:44,123 [run_classifier.py:  298]:       epoch: 2, progress: 8896/13240, step: 2160, ave loss: 0.040913, ave acc: 0.562500, speed: 1.777313 steps/s
+[INFO] 2019-11-22 14:04:50,262 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:04:50,262 [run_classifier.py:  298]:       epoch: 2, progress: 9056/13240, step: 2170, ave loss: 0.052144, ave acc: 0.750000, speed: 1.629147 steps/s
+[INFO] 2019-11-22 14:04:56,349 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:04:56,349 [run_classifier.py:  298]:       epoch: 2, progress: 9216/13240, step: 2180, ave loss: 0.048709, ave acc: 0.812500, speed: 1.642836 steps/s
+[INFO] 2019-11-22 14:05:01,593 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:05:01,593 [run_classifier.py:  298]:       epoch: 2, progress: 9376/13240, step: 2190, ave loss: 0.067918, ave acc: 0.812500, speed: 1.906949 steps/s
+[INFO] 2019-11-22 14:05:07,714 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:05:07,714 [run_classifier.py:  298]:       epoch: 2, progress: 9536/13240, step: 2200, ave loss: 0.056502, ave acc: 0.812500, speed: 1.633605 steps/s
+[INFO] 2019-11-22 14:05:13,600 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:05:13,600 [run_classifier.py:  298]:       epoch: 2, progress: 9696/13240, step: 2210, ave loss: 0.035867, ave acc: 0.500000, speed: 1.698839 steps/s
+[INFO] 2019-11-22 14:05:19,674 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:05:19,674 [run_classifier.py:  298]:       epoch: 2, progress: 9856/13240, step: 2220, ave loss: 0.014059, ave acc: 0.500000, speed: 1.646443 steps/s
+[INFO] 2019-11-22 14:05:25,495 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:05:25,495 [run_classifier.py:  298]:       epoch: 2, progress: 10016/13240, step: 2230, ave loss: 0.076100, ave acc: 0.812500, speed: 1.717985 steps/s
+[INFO] 2019-11-22 14:05:31,401 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:05:31,401 [run_classifier.py:  298]:       epoch: 2, progress: 10176/13240, step: 2240, ave loss: 0.027899, ave acc: 0.375000, speed: 1.693185 steps/s
+[INFO] 2019-11-22 14:05:37,050 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:05:37,051 [run_classifier.py:  298]:       epoch: 2, progress: 10336/13240, step: 2250, ave loss: 0.048534, ave acc: 0.812500, speed: 1.769929 steps/s
+[INFO] 2019-11-22 14:05:43,270 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000010
+[INFO] 2019-11-22 14:05:43,270 [run_classifier.py:  298]:       epoch: 2, progress: 10496/13240, step: 2260, ave loss: 0.046496, ave acc: 0.687500, speed: 1.608002 steps/s
+[INFO] 2019-11-22 14:05:49,910 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:05:49,910 [run_classifier.py:  298]:       epoch: 2, progress: 10656/13240, step: 2270, ave loss: 0.080667, ave acc: 0.750000, speed: 1.506046 steps/s
+[INFO] 2019-11-22 14:05:55,729 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:05:55,730 [run_classifier.py:  298]:       epoch: 2, progress: 10816/13240, step: 2280, ave loss: 0.072127, ave acc: 0.625000, speed: 1.718112 steps/s
+[INFO] 2019-11-22 14:06:01,014 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:06:01,014 [run_classifier.py:  298]:       epoch: 2, progress: 10976/13240, step: 2290, ave loss: 0.056127, ave acc: 0.812500, speed: 1.892604 steps/s
+[INFO] 2019-11-22 14:06:06,122 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:06:06,122 [run_classifier.py:  298]:       epoch: 2, progress: 11136/13240, step: 2300, ave loss: 0.070444, ave acc: 0.875000, speed: 1.957706 steps/s
+[INFO] 2019-11-22 14:06:11,866 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:06:11,866 [run_classifier.py:  298]:       epoch: 2, progress: 11296/13240, step: 2310, ave loss: 0.054661, ave acc: 0.562500, speed: 1.740771 steps/s
+[INFO] 2019-11-22 14:06:17,277 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:06:17,277 [run_classifier.py:  298]:       epoch: 2, progress: 11456/13240, step: 2320, ave loss: 0.056298, ave acc: 0.687500, speed: 1.848267 steps/s
+[INFO] 2019-11-22 14:06:23,278 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:06:23,278 [run_classifier.py:  298]:       epoch: 2, progress: 11616/13240, step: 2330, ave loss: 0.057514, ave acc: 0.625000, speed: 1.666283 steps/s
+[INFO] 2019-11-22 14:06:28,911 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:06:28,911 [run_classifier.py:  298]:       epoch: 2, progress: 11776/13240, step: 2340, ave loss: 0.036638, ave acc: 0.562500, speed: 1.775169 steps/s
+[INFO] 2019-11-22 14:06:34,086 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:06:34,086 [run_classifier.py:  298]:       epoch: 2, progress: 11936/13240, step: 2350, ave loss: 0.044130, ave acc: 0.500000, speed: 1.932649 steps/s
+[INFO] 2019-11-22 14:06:39,664 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:06:39,664 [run_classifier.py:  298]:       epoch: 2, progress: 12096/13240, step: 2360, ave loss: 0.042133, ave acc: 0.687500, speed: 1.792609 steps/s
+[INFO] 2019-11-22 14:06:45,897 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000009
+[INFO] 2019-11-22 14:06:45,897 [run_classifier.py:  298]:       epoch: 2, progress: 12256/13240, step: 2370, ave loss: 0.057095, ave acc: 0.750000, speed: 1.604476 steps/s
+[INFO] 2019-11-22 14:06:52,037 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:06:52,037 [run_classifier.py:  298]:       epoch: 2, progress: 12416/13240, step: 2380, ave loss: 0.061722, ave acc: 0.812500, speed: 1.628516 steps/s
+[INFO] 2019-11-22 14:06:58,491 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:06:58,492 [run_classifier.py:  298]:       epoch: 2, progress: 12576/13240, step: 2390, ave loss: 0.049506, ave acc: 0.750000, speed: 1.549305 steps/s
+[INFO] 2019-11-22 14:07:04,647 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:07:04,647 [run_classifier.py:  298]:       epoch: 2, progress: 12736/13240, step: 2400, ave loss: 0.084228, ave acc: 0.812500, speed: 1.624701 steps/s
+[INFO] 2019-11-22 14:07:10,166 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:07:10,166 [run_classifier.py:  298]:       epoch: 2, progress: 12896/13240, step: 2410, ave loss: 0.041227, ave acc: 0.562500, speed: 1.811774 steps/s
+[INFO] 2019-11-22 14:07:15,643 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:07:15,643 [run_classifier.py:  298]:       epoch: 2, progress: 13056/13240, step: 2420, ave loss: 0.082211, ave acc: 0.562500, speed: 1.825999 steps/s
+[INFO] 2019-11-22 14:07:21,388 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:07:21,388 [run_classifier.py:  298]:       epoch: 2, progress: 13216/13240, step: 2430, ave loss: 0.067909, ave acc: 0.812500, speed: 1.740516 steps/s
+[INFO] 2019-11-22 14:07:26,950 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:07:26,950 [run_classifier.py:  298]:       epoch: 3, progress: 128/13240, step: 2440, ave loss: 0.029176, ave acc: 0.562500, speed: 1.797958 steps/s
+[INFO] 2019-11-22 14:07:26,953 [run_classifier.py:  401]:       validation result of dataset mofeng_data/OLID/task_a/dev.tsv:
+[INFO] 2019-11-22 14:07:37,903 [run_classifier.py:  412]:       [dev evaluation] ave loss: 0.049059, ave_acc: 0.720930, f1: 0.418919, data_num: 860, elapsed time: 10.942876 s, file: mofeng_data/OLID/task_a/dev.tsv, epoch: 3, steps: 2440
+[INFO] 2019-11-22 14:07:43,562 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:07:43,562 [run_classifier.py:  298]:       epoch: 3, progress: 288/13240, step: 2450, ave loss: 0.040486, ave acc: 0.625000, speed: 0.601985 steps/s
+[INFO] 2019-11-22 14:07:49,042 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:07:49,042 [run_classifier.py:  298]:       epoch: 3, progress: 448/13240, step: 2460, ave loss: 0.041336, ave acc: 0.687500, speed: 1.824646 steps/s
+[INFO] 2019-11-22 14:07:54,390 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:07:54,390 [run_classifier.py:  298]:       epoch: 3, progress: 608/13240, step: 2470, ave loss: 0.042153, ave acc: 0.750000, speed: 1.869807 steps/s
+[INFO] 2019-11-22 14:08:00,425 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000008
+[INFO] 2019-11-22 14:08:00,425 [run_classifier.py:  298]:       epoch: 3, progress: 768/13240, step: 2480, ave loss: 0.041758, ave acc: 0.750000, speed: 1.657160 steps/s
+[INFO] 2019-11-22 14:08:06,002 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:06,002 [run_classifier.py:  298]:       epoch: 3, progress: 928/13240, step: 2490, ave loss: 0.031895, ave acc: 0.562500, speed: 1.792879 steps/s
+[INFO] 2019-11-22 14:08:11,373 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:11,373 [run_classifier.py:  298]:       epoch: 3, progress: 1088/13240, step: 2500, ave loss: 0.038095, ave acc: 0.687500, speed: 1.862033 steps/s
+[INFO] 2019-11-22 14:08:16,658 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:16,658 [run_classifier.py:  298]:       epoch: 3, progress: 1248/13240, step: 2510, ave loss: 0.071145, ave acc: 0.812500, speed: 1.892142 steps/s
+[INFO] 2019-11-22 14:08:21,673 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:21,673 [run_classifier.py:  298]:       epoch: 3, progress: 1408/13240, step: 2520, ave loss: 0.027913, ave acc: 0.687500, speed: 1.993898 steps/s
+[INFO] 2019-11-22 14:08:27,779 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:27,779 [run_classifier.py:  298]:       epoch: 3, progress: 1568/13240, step: 2530, ave loss: 0.053165, ave acc: 0.625000, speed: 1.637687 steps/s
+[INFO] 2019-11-22 14:08:33,979 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:33,979 [run_classifier.py:  298]:       epoch: 3, progress: 1728/13240, step: 2540, ave loss: 0.028756, ave acc: 0.750000, speed: 1.613083 steps/s
+[INFO] 2019-11-22 14:08:39,924 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:39,924 [run_classifier.py:  298]:       epoch: 3, progress: 1888/13240, step: 2550, ave loss: 0.069317, ave acc: 0.812500, speed: 1.681890 steps/s
+[INFO] 2019-11-22 14:08:46,291 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:46,291 [run_classifier.py:  298]:       epoch: 3, progress: 2048/13240, step: 2560, ave loss: 0.048295, ave acc: 0.875000, speed: 1.570836 steps/s
+[INFO] 2019-11-22 14:08:52,274 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:52,274 [run_classifier.py:  298]:       epoch: 3, progress: 2208/13240, step: 2570, ave loss: 0.055124, ave acc: 0.562500, speed: 1.671927 steps/s
+[INFO] 2019-11-22 14:08:57,802 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:08:57,802 [run_classifier.py:  298]:       epoch: 3, progress: 2368/13240, step: 2580, ave loss: 0.075174, ave acc: 0.562500, speed: 1.808780 steps/s
+[INFO] 2019-11-22 14:09:03,474 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000007
+[INFO] 2019-11-22 14:09:03,474 [run_classifier.py:  298]:       epoch: 3, progress: 2528/13240, step: 2590, ave loss: 0.045983, ave acc: 0.625000, speed: 1.763227 steps/s
+[INFO] 2019-11-22 14:09:09,417 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:09:09,417 [run_classifier.py:  298]:       epoch: 3, progress: 2688/13240, step: 2600, ave loss: 0.079766, ave acc: 0.687500, speed: 1.682657 steps/s
+[INFO] 2019-11-22 14:09:15,363 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:09:15,363 [run_classifier.py:  298]:       epoch: 3, progress: 2848/13240, step: 2610, ave loss: 0.065672, ave acc: 0.625000, speed: 1.681664 steps/s
+[INFO] 2019-11-22 14:09:20,943 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:09:20,943 [run_classifier.py:  298]:       epoch: 3, progress: 3008/13240, step: 2620, ave loss: 0.054618, ave acc: 0.750000, speed: 1.792157 steps/s
+[INFO] 2019-11-22 14:09:27,068 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:09:27,068 [run_classifier.py:  298]:       epoch: 3, progress: 3168/13240, step: 2630, ave loss: 0.075402, ave acc: 0.812500, speed: 1.632574 steps/s
+[INFO] 2019-11-22 14:09:33,090 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:09:33,091 [run_classifier.py:  298]:       epoch: 3, progress: 3328/13240, step: 2640, ave loss: 0.030977, ave acc: 0.437500, speed: 1.660489 steps/s
+[INFO] 2019-11-22 14:09:38,951 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:09:38,951 [run_classifier.py:  298]:       epoch: 3, progress: 3488/13240, step: 2650, ave loss: 0.033677, ave acc: 0.625000, speed: 1.706234 steps/s
+[INFO] 2019-11-22 14:09:45,524 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:09:45,525 [run_classifier.py:  298]:       epoch: 3, progress: 3648/13240, step: 2660, ave loss: 0.050451, ave acc: 0.625000, speed: 1.521360 steps/s
+[INFO] 2019-11-22 14:09:51,249 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:09:51,249 [run_classifier.py:  298]:       epoch: 3, progress: 3808/13240, step: 2670, ave loss: 0.024594, ave acc: 0.500000, speed: 1.746841 steps/s
+[INFO] 2019-11-22 14:09:57,317 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:09:57,317 [run_classifier.py:  298]:       epoch: 3, progress: 3968/13240, step: 2680, ave loss: 0.059077, ave acc: 0.875000, speed: 1.648061 steps/s
+[INFO] 2019-11-22 14:10:03,068 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:10:03,068 [run_classifier.py:  298]:       epoch: 3, progress: 4128/13240, step: 2690, ave loss: 0.026648, ave acc: 0.562500, speed: 1.738757 steps/s
+[INFO] 2019-11-22 14:10:08,506 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000006
+[INFO] 2019-11-22 14:10:08,506 [run_classifier.py:  298]:       epoch: 3, progress: 4288/13240, step: 2700, ave loss: 0.019745, ave acc: 0.750000, speed: 1.839073 steps/s
+[INFO] 2019-11-22 14:10:14,807 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:10:14,807 [run_classifier.py:  298]:       epoch: 3, progress: 4448/13240, step: 2710, ave loss: 0.043550, ave acc: 0.687500, speed: 1.586868 steps/s
+[INFO] 2019-11-22 14:10:20,326 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:10:20,326 [run_classifier.py:  298]:       epoch: 3, progress: 4608/13240, step: 2720, ave loss: 0.037114, ave acc: 0.812500, speed: 1.812058 steps/s
+[INFO] 2019-11-22 14:10:25,926 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:10:25,927 [run_classifier.py:  298]:       epoch: 3, progress: 4768/13240, step: 2730, ave loss: 0.003474, ave acc: 0.500000, speed: 1.785271 steps/s
+[INFO] 2019-11-22 14:10:31,615 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:10:31,615 [run_classifier.py:  298]:       epoch: 3, progress: 4928/13240, step: 2740, ave loss: 0.072419, ave acc: 0.750000, speed: 1.758114 steps/s
+[INFO] 2019-11-22 14:10:38,101 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:10:38,101 [run_classifier.py:  298]:       epoch: 3, progress: 5088/13240, step: 2750, ave loss: 0.020943, ave acc: 0.625000, speed: 1.541947 steps/s
+[INFO] 2019-11-22 14:10:43,534 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:10:43,534 [run_classifier.py:  298]:       epoch: 3, progress: 5248/13240, step: 2760, ave loss: 0.010792, ave acc: 0.625000, speed: 1.840317 steps/s
+[INFO] 2019-11-22 14:10:49,108 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:10:49,108 [run_classifier.py:  298]:       epoch: 3, progress: 5408/13240, step: 2770, ave loss: 0.034934, ave acc: 0.687500, speed: 1.794120 steps/s
+[INFO] 2019-11-22 14:10:54,772 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:10:54,772 [run_classifier.py:  298]:       epoch: 3, progress: 5568/13240, step: 2780, ave loss: 0.038059, ave acc: 0.875000, speed: 1.765474 steps/s
+[INFO] 2019-11-22 14:11:00,409 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:11:00,409 [run_classifier.py:  298]:       epoch: 3, progress: 5728/13240, step: 2790, ave loss: 0.055443, ave acc: 0.687500, speed: 1.774184 steps/s
+[INFO] 2019-11-22 14:11:05,899 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:11:05,900 [run_classifier.py:  298]:       epoch: 3, progress: 5888/13240, step: 2800, ave loss: 0.065394, ave acc: 0.687500, speed: 1.821103 steps/s
+[INFO] 2019-11-22 14:11:12,275 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000005
+[INFO] 2019-11-22 14:11:12,275 [run_classifier.py:  298]:       epoch: 3, progress: 6048/13240, step: 2810, ave loss: 0.048721, ave acc: 0.562500, speed: 1.568544 steps/s
+[INFO] 2019-11-22 14:11:18,626 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:11:18,626 [run_classifier.py:  298]:       epoch: 3, progress: 6208/13240, step: 2820, ave loss: 0.054497, ave acc: 0.750000, speed: 1.574679 steps/s
+[INFO] 2019-11-22 14:11:25,216 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:11:25,216 [run_classifier.py:  298]:       epoch: 3, progress: 6368/13240, step: 2830, ave loss: 0.064446, ave acc: 0.812500, speed: 1.517458 steps/s
+[INFO] 2019-11-22 14:11:30,977 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:11:30,977 [run_classifier.py:  298]:       epoch: 3, progress: 6528/13240, step: 2840, ave loss: 0.020510, ave acc: 0.750000, speed: 1.735642 steps/s
+[INFO] 2019-11-22 14:11:36,821 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:11:36,821 [run_classifier.py:  298]:       epoch: 3, progress: 6688/13240, step: 2850, ave loss: 0.052985, ave acc: 0.687500, speed: 1.711115 steps/s
+[INFO] 2019-11-22 14:11:42,273 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:11:42,273 [run_classifier.py:  298]:       epoch: 3, progress: 6848/13240, step: 2860, ave loss: 0.034836, ave acc: 0.562500, speed: 1.834279 steps/s
+[INFO] 2019-11-22 14:11:47,585 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:11:47,585 [run_classifier.py:  298]:       epoch: 3, progress: 7008/13240, step: 2870, ave loss: 0.025891, ave acc: 0.562500, speed: 1.882674 steps/s
+[INFO] 2019-11-22 14:11:53,485 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:11:53,485 [run_classifier.py:  298]:       epoch: 3, progress: 7168/13240, step: 2880, ave loss: 0.055048, ave acc: 0.625000, speed: 1.694978 steps/s
+[INFO] 2019-11-22 14:11:59,616 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:11:59,616 [run_classifier.py:  298]:       epoch: 3, progress: 7328/13240, step: 2890, ave loss: 0.039677, ave acc: 0.562500, speed: 1.631018 steps/s
+[INFO] 2019-11-22 14:12:04,922 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:12:04,922 [run_classifier.py:  298]:       epoch: 3, progress: 7488/13240, step: 2900, ave loss: 0.046679, ave acc: 0.687500, speed: 1.884596 steps/s
+[INFO] 2019-11-22 14:12:11,143 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:12:11,143 [run_classifier.py:  298]:       epoch: 3, progress: 7648/13240, step: 2910, ave loss: 0.054383, ave acc: 0.687500, speed: 1.607597 steps/s
+[INFO] 2019-11-22 14:12:17,126 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000004
+[INFO] 2019-11-22 14:12:17,126 [run_classifier.py:  298]:       epoch: 3, progress: 7808/13240, step: 2920, ave loss: 0.069665, ave acc: 0.750000, speed: 1.671358 steps/s
+[INFO] 2019-11-22 14:12:22,978 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:12:22,978 [run_classifier.py:  298]:       epoch: 3, progress: 7968/13240, step: 2930, ave loss: 0.011681, ave acc: 0.687500, speed: 1.708984 steps/s
+[INFO] 2019-11-22 14:12:28,298 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:12:28,298 [run_classifier.py:  298]:       epoch: 3, progress: 8128/13240, step: 2940, ave loss: 0.025172, ave acc: 0.687500, speed: 1.879579 steps/s
+[INFO] 2019-11-22 14:12:33,814 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:12:33,814 [run_classifier.py:  298]:       epoch: 3, progress: 8288/13240, step: 2950, ave loss: 0.034060, ave acc: 0.562500, speed: 1.813051 steps/s
+[INFO] 2019-11-22 14:12:39,905 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:12:39,905 [run_classifier.py:  298]:       epoch: 3, progress: 8448/13240, step: 2960, ave loss: 0.033573, ave acc: 0.687500, speed: 1.641770 steps/s
+[INFO] 2019-11-22 14:12:45,690 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:12:45,690 [run_classifier.py:  298]:       epoch: 3, progress: 8608/13240, step: 2970, ave loss: 0.021275, ave acc: 0.687500, speed: 1.728521 steps/s
+[INFO] 2019-11-22 14:12:51,536 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:12:51,536 [run_classifier.py:  298]:       epoch: 3, progress: 8768/13240, step: 2980, ave loss: 0.048500, ave acc: 0.625000, speed: 1.710686 steps/s
+[INFO] 2019-11-22 14:12:56,983 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:12:56,983 [run_classifier.py:  298]:       epoch: 3, progress: 8928/13240, step: 2990, ave loss: 0.067355, ave acc: 0.750000, speed: 1.835702 steps/s
+[INFO] 2019-11-22 14:13:03,398 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:13:03,398 [run_classifier.py:  298]:       epoch: 3, progress: 9088/13240, step: 3000, ave loss: 0.053051, ave acc: 0.625000, speed: 1.558904 steps/s
+[INFO] 2019-11-22 14:13:15,420 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:13:15,420 [run_classifier.py:  298]:       epoch: 3, progress: 9248/13240, step: 3010, ave loss: 0.074476, ave acc: 0.687500, speed: 0.831777 steps/s
+[INFO] 2019-11-22 14:13:21,979 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:13:21,979 [run_classifier.py:  298]:       epoch: 3, progress: 9408/13240, step: 3020, ave loss: 0.054214, ave acc: 0.687500, speed: 1.524680 steps/s
+[INFO] 2019-11-22 14:13:27,959 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000003
+[INFO] 2019-11-22 14:13:27,959 [run_classifier.py:  298]:       epoch: 3, progress: 9568/13240, step: 3030, ave loss: 0.073287, ave acc: 0.687500, speed: 1.672229 steps/s
+[INFO] 2019-11-22 14:13:33,842 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:13:33,842 [run_classifier.py:  298]:       epoch: 3, progress: 9728/13240, step: 3040, ave loss: 0.042308, ave acc: 0.812500, speed: 1.699900 steps/s
+[INFO] 2019-11-22 14:13:39,203 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:13:39,203 [run_classifier.py:  298]:       epoch: 3, progress: 9888/13240, step: 3050, ave loss: 0.052333, ave acc: 0.687500, speed: 1.865222 steps/s
+[INFO] 2019-11-22 14:13:45,461 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:13:45,461 [run_classifier.py:  298]:       epoch: 3, progress: 10048/13240, step: 3060, ave loss: 0.051103, ave acc: 0.750000, speed: 1.598070 steps/s
+[INFO] 2019-11-22 14:13:50,768 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:13:50,768 [run_classifier.py:  298]:       epoch: 3, progress: 10208/13240, step: 3070, ave loss: 0.035726, ave acc: 0.687500, speed: 1.884154 steps/s
+[INFO] 2019-11-22 14:13:56,091 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:13:56,091 [run_classifier.py:  298]:       epoch: 3, progress: 10368/13240, step: 3080, ave loss: 0.062729, ave acc: 0.750000, speed: 1.878681 steps/s
+[INFO] 2019-11-22 14:14:01,614 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:14:01,614 [run_classifier.py:  298]:       epoch: 3, progress: 10528/13240, step: 3090, ave loss: 0.030162, ave acc: 0.687500, speed: 1.810761 steps/s
+[INFO] 2019-11-22 14:14:07,805 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:14:07,805 [run_classifier.py:  298]:       epoch: 3, progress: 10688/13240, step: 3100, ave loss: 0.056589, ave acc: 0.562500, speed: 1.615085 steps/s
+[INFO] 2019-11-22 14:14:13,010 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:14:13,010 [run_classifier.py:  298]:       epoch: 3, progress: 10848/13240, step: 3110, ave loss: 0.080058, ave acc: 0.937500, speed: 1.921358 steps/s
+[INFO] 2019-11-22 14:14:19,747 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:14:19,747 [run_classifier.py:  298]:       epoch: 3, progress: 11008/13240, step: 3120, ave loss: 0.025853, ave acc: 0.500000, speed: 1.484285 steps/s
+[INFO] 2019-11-22 14:14:25,227 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:14:25,228 [run_classifier.py:  298]:       epoch: 3, progress: 11168/13240, step: 3130, ave loss: 0.064722, ave acc: 0.625000, speed: 1.824410 steps/s
+[INFO] 2019-11-22 14:14:31,156 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000002
+[INFO] 2019-11-22 14:14:31,156 [run_classifier.py:  298]:       epoch: 3, progress: 11328/13240, step: 3140, ave loss: 0.061333, ave acc: 0.562500, speed: 1.686886 steps/s
+[INFO] 2019-11-22 14:14:36,902 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:14:36,902 [run_classifier.py:  298]:       epoch: 3, progress: 11488/13240, step: 3150, ave loss: 0.034441, ave acc: 0.625000, speed: 1.740415 steps/s
+[INFO] 2019-11-22 14:14:42,937 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:14:42,937 [run_classifier.py:  298]:       epoch: 3, progress: 11648/13240, step: 3160, ave loss: 0.028068, ave acc: 0.437500, speed: 1.657179 steps/s
+[INFO] 2019-11-22 14:14:49,139 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:14:49,139 [run_classifier.py:  298]:       epoch: 3, progress: 11808/13240, step: 3170, ave loss: 0.056709, ave acc: 0.437500, speed: 1.612250 steps/s
+[INFO] 2019-11-22 14:14:55,130 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:14:55,131 [run_classifier.py:  298]:       epoch: 3, progress: 11968/13240, step: 3180, ave loss: 0.064194, ave acc: 0.625000, speed: 1.668901 steps/s
+[INFO] 2019-11-22 14:15:00,858 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:15:00,858 [run_classifier.py:  298]:       epoch: 3, progress: 12128/13240, step: 3190, ave loss: 0.050700, ave acc: 0.750000, speed: 1.746180 steps/s
+[INFO] 2019-11-22 14:15:06,823 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:15:06,823 [run_classifier.py:  298]:       epoch: 3, progress: 12288/13240, step: 3200, ave loss: 0.059677, ave acc: 0.687500, speed: 1.676338 steps/s
+[INFO] 2019-11-22 14:15:12,450 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:15:12,450 [run_classifier.py:  298]:       epoch: 3, progress: 12448/13240, step: 3210, ave loss: 0.068344, ave acc: 0.750000, speed: 1.777308 steps/s
+[INFO] 2019-11-22 14:15:18,545 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:15:18,545 [run_classifier.py:  298]:       epoch: 3, progress: 12608/13240, step: 3220, ave loss: 0.060298, ave acc: 0.687500, speed: 1.640586 steps/s
+[INFO] 2019-11-22 14:15:24,324 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:15:24,324 [run_classifier.py:  298]:       epoch: 3, progress: 12768/13240, step: 3230, ave loss: 0.052268, ave acc: 0.875000, speed: 1.730517 steps/s
+[INFO] 2019-11-22 14:15:29,791 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:15:29,791 [run_classifier.py:  298]:       epoch: 3, progress: 12928/13240, step: 3240, ave loss: 0.056636, ave acc: 0.812500, speed: 1.828940 steps/s
+[INFO] 2019-11-22 14:15:35,786 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000001
+[INFO] 2019-11-22 14:15:35,786 [run_classifier.py:  298]:       epoch: 3, progress: 13088/13240, step: 3250, ave loss: 0.034590, ave acc: 0.562500, speed: 1.668284 steps/s
+[INFO] 2019-11-22 14:15:41,595 [run_classifier.py:  286]:       train pyreader queue size: 50, learning rate: 0.000000
+[INFO] 2019-11-22 14:15:41,595 [run_classifier.py:  298]:       epoch: 3, progress: 13239/13240, step: 3260, ave loss: 0.033413, ave acc: 0.625000, speed: 1.721357 steps/s
+[INFO] 2019-11-22 14:15:47,576 [run_classifier.py:  286]:       train pyreader queue size: 41, learning rate: 0.000000
+[INFO] 2019-11-22 14:15:47,576 [run_classifier.py:  298]:       epoch: 3, progress: 13239/13240, step: 3270, ave loss: 0.028057, ave acc: 0.562500, speed: 1.671821 steps/s
+[INFO] 2019-11-22 14:15:53,935 [run_classifier.py:  286]:       train pyreader queue size: 31, learning rate: 0.000000
+[INFO] 2019-11-22 14:15:53,935 [run_classifier.py:  298]:       epoch: 3, progress: 13239/13240, step: 3280, ave loss: 0.038281, ave acc: 0.562500, speed: 1.572770 steps/s
+[INFO] 2019-11-22 14:15:59,502 [run_classifier.py:  286]:       train pyreader queue size: 21, learning rate: 0.000000
+[INFO] 2019-11-22 14:15:59,503 [run_classifier.py:  298]:       epoch: 3, progress: 13239/13240, step: 3290, ave loss: 0.054937, ave acc: 0.437500, speed: 1.795950 steps/s
+[INFO] 2019-11-22 14:16:05,380 [run_classifier.py:  286]:       train pyreader queue size: 11, learning rate: 0.000000
+[INFO] 2019-11-22 14:16:05,380 [run_classifier.py:  298]:       epoch: 3, progress: 13239/13240, step: 3300, ave loss: 0.014862, ave acc: 0.750000, speed: 1.701539 steps/s
+[INFO] 2019-11-22 14:16:11,024 [run_classifier.py:  286]:       train pyreader queue size: 1, learning rate: 0.000000
+[INFO] 2019-11-22 14:16:11,024 [run_classifier.py:  298]:       epoch: 3, progress: 13239/13240, step: 3310, ave loss: 0.036331, ave acc: 0.812500, speed: 1.771801 steps/s
+[INFO] 2019-11-22 14:16:18,424 [run_classifier.py:  401]:       validation result of dataset mofeng_data/OLID/task_a/dev.tsv:
+
+
+[INFO] 2019-11-22 14:16:29,289 [run_classifier.py:  412]:
+[dev evaluation]
+ave loss: 0.039520,
+ave_acc: 0.720930,
+f1: 0.418919,
+data_num: 860,
+elapsed time: 10.858886 s,
+file: mofeng_data/OLID/task_a/dev.tsv, epoch: 3, steps: 3313
+
+W1122 13:43:02.281064 15892 device_context.cc:235] Please NOTE: device: 0, CUDA Capability: 61, Driver API Version: 10.1, Runtime API Version: 10.0
+W1122 13:43:02.290040 15892 device_context.cc:243] device: 0, cuDNN Version: 7.3.
+I1122 13:43:04.647356 15892 parallel_executor.cc:421] The number of CUDAPlace, which is used in ParallelExecutor, is 1. And the Program will be copied 1 copies
+I1122 13:43:04.733125 15892 build_strategy.cc:363] SeqOnlyAllReduceOps:0, num_trainers:1
+I1122 13:43:04.844784 15892 parallel_executor.cc:285] Inplace strategy is enabled, when build_strategy.enable_inplace = True
+I1122 13:43:04.906632 15892 parallel_executor.cc:368] Garbage collection strategy is enabled, when FLAGS_eager_delete_tensor_gb = 0
