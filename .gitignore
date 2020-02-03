@@ -4,3 +4,4 @@
 *.egg-info/
 checkpoints/
 mofeng_data/
+ernie/model/ERNIE_Base_en_stable-2.0.0/
