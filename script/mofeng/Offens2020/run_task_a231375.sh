@@ -10,7 +10,7 @@ python -u ./ernie/run_classifier.py                                          \
            --do_train true                                                   \
            --do_val true                                                     \
            --do_test False                                                   \
-           --batch_size 2                                                   \
+           --batch_size 1                                                   \
            --init_pretraining_params ${MODEL_PATH}/params                    \
            --verbose true                                                    \
            --train_set ${TASK_DATA_PATH}/train.tsv                           \

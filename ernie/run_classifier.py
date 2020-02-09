@@ -95,7 +95,7 @@ def main(args):
             if args.batch_size < args.max_seq_len:
                 raise ValueError(
                     'if in_tokens=True, batch_size should greater than max_sqelen, got batch_size:%d seqlen:%d' % (
-                    args.batch_size, args.max_seq_len))
+                        args.batch_size, args.max_seq_len))
             max_train_steps = args.epoch * num_train_examples // (
                     args.batch_size // args.max_seq_len) // dev_count
         else:
@@ -392,8 +392,12 @@ def evaluate_wrapper(args, reader, exe, test_prog, test_pyreader, graph_vars,
                 shuffle=False))
         log.info("validation result of dataset {}:".format(ds))
         # 保存评估结果
-        content = "validation result of dataset {}:".format(ds)
-        save_evaluation_results(args.output, content)
+        try:
+            print("++++++++++++++++++++success1+++++++++++++++++++++++++++++")
+            content = "validation result of dataset {}:".format(ds)
+            save_evaluation_results(args.output, content)
+        except:
+            print("++++++++++++++++++++Error1+++++++++++++++++++++++++++++")
         evaluate_info = evaluate(
             exe,
             test_prog,
@@ -406,9 +410,13 @@ def evaluate_wrapper(args, reader, exe, test_prog, test_pyreader, graph_vars,
         log.info(evaluate_info + ', file: {}, epoch: {}, steps: {}'.format(
             ds, epoch, steps))
         # 保存评估结果
-        content = evaluate_info + ', file: {}, epoch: {}, steps: {}'.format(
-            ds, epoch, steps)
-        save_evaluation_results(args.output, content)
+        try:
+            print("++++++++++++++++++++success1+++++++++++++++++++++++++++++")
+            content = evaluate_info + ', file: {}, epoch: {}, steps: {}'.format(
+                ds, epoch, steps)
+            save_evaluation_results(args.output, content)
+        except:
+            print("++++++++++++++++++++Error1+++++++++++++++++++++++++++++")
 
 
 # save the evaluation results
