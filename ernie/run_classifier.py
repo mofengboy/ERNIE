@@ -394,7 +394,7 @@ def evaluate_wrapper(args, reader, exe, test_prog, test_pyreader, graph_vars,
         # 保存评估结果
         try:
             print("++++++++++++++++++++success1+++++++++++++++++++++++++++++")
-            content = "validation result of dataset {}:".format(ds)
+            content = "validation result of dataset {}:" + ds + "\n"
             save_evaluation_results(args.output, content)
         except:
             print("++++++++++++++++++++Error1+++++++++++++++++++++++++++++")
@@ -412,8 +412,7 @@ def evaluate_wrapper(args, reader, exe, test_prog, test_pyreader, graph_vars,
         # 保存评估结果
         try:
             print("++++++++++++++++++++success1+++++++++++++++++++++++++++++")
-            content = evaluate_info + ', file: {}, epoch: {}, steps: {}'.format(
-                ds, epoch, steps)
+            content = "file:" + ds + ",epoch:" + epoch + ",steps:" + steps + "\n"
             save_evaluation_results(args.output, content)
         except:
             print("++++++++++++++++++++Error1+++++++++++++++++++++++++++++")
